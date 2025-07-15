@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  adr-uploader:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./data.jsonl:/app/data.jsonl
