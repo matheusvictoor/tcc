@@ -30,7 +30,7 @@ Follow the steps below to set up the project.
 
 
 4.  **Prepare your data:**
-    Create a file named `data.jsonl` in the project root. Add the documents you want to upload, with one JSON object per line. The `docker-compose.yml` is configured to mount this file inside the container.
+    Create a file named `data.jsonl` in the extraction directory root. Add the documents you want to upload, with one JSON object per line. The `docker-compose.yml` is configured to mount this file inside the container.
 
 ## How to Run
 
