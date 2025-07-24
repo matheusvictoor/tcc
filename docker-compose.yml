@@ -4,4 +4,4 @@ services:
     env_file:
       - .env
     volumes:
-      - .extraction/data.jsonl:/app/data.jsonl
+      - ./extraction/data.jsonl:/app/data.jsonl
