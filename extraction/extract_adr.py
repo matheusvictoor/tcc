@@ -5,8 +5,9 @@ import time
 from pathlib import Path
 import base64
 from tqdm import tqdm
+from context_word_count import word_count
 
-# GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 with open("GITHUB_TOKEN", "r") as f:
     GITHUB_TOKEN = f.read().strip()
@@ -23,10 +24,8 @@ ERRO_FILE = Path("erro_dataset.jsonl")
 def get_adr_content(repositorie, adr_path):
     url = f"https://api.github.com/repos/{repositorie}/contents/{adr_path}"
     try:
-
         response = requests.get(url, headers=HEADERS)
-        # response = requests.get(url)
-
+        
         if response:
             encoding = response.json().get("encoding", "base64")
 
@@ -54,14 +53,14 @@ def main():
                 count += 1
                 path = f"{adr['adrDirectory']}/{adr['path']}"
                 content_b64 = get_adr_content(repo, path)
-                time.sleep(1)
+                time.sleep(2)
 
                 if content_b64:
                     try:
                         content = base64.b64decode(content_b64).decode("utf-8", errors="ignore")
                         title_line = content.strip().splitlines()[0] if content.strip() else ""
                         title = title_line.lstrip("#").strip() if title_line.startswith("#") else "(sem título)"
-                        word_count = len(content.split())
+                        wc = word_count(content)
 
                         record = {
                             "repositoryUrl": repo_url,
@@ -72,7 +71,7 @@ def main():
                             "lastCommit": adr.get("lastCommit"),
                             "numberOfCommits": adr.get("numberOfCommits"),
                             "title": title,
-                            "wordCount": word_count,
+                            "wordCount": wc,
                             "content": content
                         }
 

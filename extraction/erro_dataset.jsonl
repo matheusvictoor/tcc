@@ -157,6 +157,7 @@
 {"repositoryUrl": "https://github.com/ministryofjustice/hmpps-interventions-docs.git", "path": "doc/adr/0005-for-release-prioritise-consistency-over-availability.md", "error": "Falha na requisicao ou conteudo invalido"}
 {"repositoryUrl": "https://github.com/ministryofjustice/hmpps-interventions-docs.git", "path": "doc/adr/0004-store-actors-and-time-instead-of-state.md", "error": "Falha na requisicao ou conteudo invalido"}
 {"repositoryUrl": "https://github.com/ministryofjustice/hmpps-interventions-docs.git", "path": "doc/adr/0001-split-ui-and-service.md", "error": "Falha na requisicao ou conteudo invalido"}
+{"repositoryUrl": "https://github.com/Trendyol/ios-architecture-decision-logs.git", "path": "adr/0013-unit-tests-required.md", "error": "Falha na requisicao ou conteudo invalido"}
 {"repositoryUrl": "https://github.com/ElektraInitiative/libelektra.git", "path": "doc/decisions/cryptograhic_key_handling.md", "error": "Falha na requisicao ou conteudo invalido"}
 {"repositoryUrl": "https://github.com/ElektraInitiative/libelektra.git", "path": "doc/decisions/cmake_spec.md", "error": "Falha na requisicao ou conteudo invalido"}
 {"repositoryUrl": "https://github.com/ElektraInitiative/libelektra.git", "path": "doc/decisions/validation.md", "error": "Falha na requisicao ou conteudo invalido"}
