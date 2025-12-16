@@ -18,7 +18,7 @@ HEADERS = {
 }
 
 REPO_DIR = Path("ADR-Study-Dataset/repositories")
-OUTPUT_FILE = Path("data.jsonl")
+OUTPUT_FILE = Path("dataset.jsonl")
 ERRO_FILE = Path("erro_dataset.jsonl")
 
 def get_adr_content(repositorie, adr_path):
@@ -62,6 +62,14 @@ def main():
                         title = title_line.lstrip("#").strip() if title_line.startswith("#") else "(sem título)"
                         wc = word_count(content)
 
+                        authors_commits = {}
+                        for i, author in enumerate(adr.get("authors", []), start=1):
+                            name = author.get("name", f"name{i}")
+                            if name == "<disclosed>":
+                                name = f"name{i}"
+                            commits = author.get("numberOfCommits", 0)
+                            authors_commits[name] = commits
+
                         record = {
                             "repositoryUrl": repo_url,
                             "path": path,
@@ -72,6 +80,7 @@ def main():
                             "numberOfCommits": adr.get("numberOfCommits"),
                             "title": title,
                             "wordCount": wc,
+                            "authors": authors_commits,
                             "content": content
                         }
 
