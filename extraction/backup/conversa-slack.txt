@@ -1,0 +1,250 @@
+joao.​arthur
+  14h14
+Meus caros, nós precisamos conversar sobre o TCC. Em primeiro lugar, para funcionar, precisamos de encontros mais constantes. Não vai funcionar muito chegar com muita coisa feita no final do período.
+14h15
+Outro ponto importante é que eu queria direcionar o que vcs estão fazendo para iniciativas que já estou tocando. Dessa forma não espalho minha energia em temas tão distintos.
+Samuel Cabral de Luna
+  12h07
+Boa tarde, João. Eu concordo, quando podemos nos encontrar? Minha maior dúvida pra continuar o trabalho é em relação a definir o tema e fechar o escopo pro tcc
+12h11
+porque talvez o que defini em ptcc não esteja alinhado com essas iniciativas que o senhor está tocando
+Matheus Victor
+  12h46
+Boa tarde Professor. Sim, já ia entrar em contato pra retomarmos os trabalhos. Desde o último encontro eu não toquei mais no tcc. Quando podemos nos encontrar? Também compartilho da mesma duvida de Samuel para trabalhar de forma direcionada.
+joao.​arthur
+  11h26
+Um tema é gerar um dataset de programas funcionais. Quero fazer com essa metodologia aqui: https://programming-group.com/assets/pdf/papers/2024_The-PIPr-Dataset-of-Public-Infrastructure-as-Code-Programs.pdf
+joao.​arthur
+  15h37
+quarta 10 da pra vcs?
+15h37
+esse horario da sexta ficou ruim pra mim
+Samuel Cabral de Luna
+  15h52
+pra mim dá certo sim
+Matheus Victor
+  15h55
+Pra mim tbm
+Matheus Victor
+  12h24
+Oi João, segue o review para você entender melhor o trabalho. E no final da apresentação estão as questões já levantadas, além das sugestões de perguntas para o TCC. (editado) 
+joao.​arthur
+  14h31
+Massa. Eu acho que as duas primeiras são bem relevantes.
+14h31
+1 -  Distribuição Acumulada da quantidade de  Commits nas ADRs
+2 -  Distribuição acumulada do número de colaboradores por ADR
+14h32
+Uma coisa interessante te ver é quem escreve/colabora nas adrs? são os top-commiters? como é isso por projeto?
+Matheus Victor
+  16h50
+Interessante, porém no dataset o campo authors vem com nome no anonimato "name1", "name2"... então não dá para coletar essa informação.
+16h51
+Mas o que acha dessa?
+Qual a distribuição dos status das ADRs? Há tendência ao longo do tempo?
+5.1 - Qual  a porcentagem de ADRs com status finalizado vs. pendente?
+5.2 - Repositórios com muitas ADRs tendem a ter mais Accepted ou misturam com Superseded
+5.3 - ADRs com status não padrão são comuns (ex:  Done em vez de Accepted)? Em quais templates ocorrem?
+Samuel Cabral de Luna
+  9h48
+Bom dia, estou a caminho
+9h48
+a apresentação: https://docs.google.com/presentation/d/1G64J49dA_kXybKoUj85ZDRDONlnsITEBronSGEdmEAI/edit?usp=sharing
+joao.​arthur
+  10h09
+@canal Oi, gente. Volta e meia a gente tem que selecionar repositórios para compor datasets em nossos estudos. Eu queria compartilhar com vocês os critérios que tenho usado recentemente e que são baseados no artigo "Curating github for engineered software projects".
+Os repositórios devem conter um mínimo de 11% de programas na linguagem ou tecnologia de interesse em relação ao total de arquivos;
+Os repositórios devem ser trabalhos originais, e não clones de repositórios existentes.
+Os repositórios devem demonstrar atividade de desenvolvimento consistente, com pelo menos dois commits por mês.
+Os repositórios devem apresentar contribuição colaborativa significativa, com participação de pelo menos 10 colaboradores diferentes.
+Claro que dependendo do estudo, você pode alterar/adicionar/remover critérios. O artigo que citei é uma boa referência para isso. (edited)
+[4:23 PM] Também trombei com essa ferramenta aqui que faz uma análise detalhada de um repo no github para decidir se é um projeto de software relevante ou não: https://github.com/RepoReapers/reaper
+GitHub
+GitHub - RepoReapers/reaper: Calculate the score of a repository based on best engineering practices.
+Calculate the score of a repository based on best engineering practices. - RepoReapers/reaper
+GitHub
+GitHub - RepoReapers/reaper: Calculate the score of a repository based on best engineering practices.
+Calculate the score of a repository based on best engineering practices. - RepoReapers/reaper
+https://github.com/RepoReapers/reaper
+
+Matheus Victor
+  9h52
+Bom dia professor.
+Hoje não irei comparecer a reunião de acompanhamento, pois continuo fazendo a classificação manual das 300 adrs. Simm, já estou com acesso a LLM da IBM que me foi disponibilizada.
+Samuel Cabral de Luna
+  10h10
+Eu também não consigo porque apareceu uma agenda das 10-11 no trabalho. Mas daqui a pouco mando o que tinha pra apresentar hoje
+Samuel Cabral de Luna
+  20h53
+Na semana passada discutimos como fechar o escopo das linguagens e como garantir que os repositórios sejam projetos reais.
+A solução que encontrei para as linguagens foi focar na garantia de imutabilidade. Isso resolve nosso problema porque independe da linguagem ser pura ou não, o importante é se a arquitetura dela força esse comportamento.
+Sobre os filtros dos repositórios, estou usando a base do "Curating github for engineered software projects" como sugerido, mas fiz uma adaptação nos valores de corte. Como comunidades funcionais são menores que as de Java ou JavaScript, os números originais do paper poderiam ser muito agressivos, então ajustei para o nosso contexto.
+Coloquei tudo nessa apresentação: https://docs.google.com/presentation/d/12MKde2omBo9bz81MrlAwicciphOd_ITKf69uRFNZhuw/edit?usp=sharing
+Samuel Cabral de Luna
+  10h36
+Bom dia, pessoal (editado) 
+10h37
+@joao.​arthur eu vi aqui que tenho alguns créditos na gcp, vou tentar fazer tudo por lá
+image.png
+ 
+image.png
+
+
+Samuel Cabral de Luna
+  10h08
+bom dia, estou a caminho
+Samuel Cabral de Luna
+  23h28
+como disse na quarta, estou fazendo o processamento da seguinte forma:
+1 - faço a busca na api do github pelas linguagens de interesse, essa parte não demorou tanto, consegui apurar 101000 repositórios.
+2 - vou clonando os repositórios que foram salvos no banco e aplico os filtros, essa fase é a mais demorar e está em processamento com 1/5 dos repositórios analisados
+Esse controle é feito por um status do repositório no banco. A tabela tem essa cara:
+image.png
+ 
+image.png
+
+
+23h30
+o que é desanimador por enquanto é que nenhum dos repositórios processados até então foram considerados válidos. Por um momento achei que poderia ser alguma falha no script, mas de fato são os critérios que estão sendo "rigorosos" ou de fato existem muitos projetos brinquedos nos repositórios extraídos:
+image.png
+ 
+image.png
+Samuel Cabral de Luna
+  23h32
+filtered_out são os descartados porque cairam em algum filtro e failed porque falharam no clone. Não sei se o certo seria esperar todos serem processados pra enfim reavaliar as métricas de corte, ou se já faço isso agora
+Samuel Cabral de Luna
+  23h36
+3 arquivos
+ 
+
+Baixar tudo
+image.png
+
+
+image.png
+
+
+image.png
+
+
+joao.​arthur
+  8h11
+certo. importante ter esses números sobre os que foram descartados tb
+8h12
+e guardar tudo, porque a gente pode querer deixar os criterios menos restritivos e seria bom não ter que rodar tudo de novo
+Samuel Cabral de Luna
+  8h41
+humm, acho que fiz merda. Se eu criar outras colunas pra os critérios aí não precisaria de fato passar mais de uma vez
+8h42
+faz mais sentido
+Samuel Cabral de Luna
+  10h
+bom dia, estou a caminho
+Matheus Victor
+  10h03
+Oi pessoal, bom dia.
+Eu finalizei a classificação manual das 300 ADRs. Acessei o conteúdo de cada uma e as classifiquei usando apenas um dos 12 tópicos abaixo:
+1. Microservices Architecture
+2. Technology/Language Choice
+3. CI/CD Infrastructure and Deployment
+4. Security
+5. Data Persistence (Databases, ORMs, Cache)
+6. Architectural Patterns (ex: MVC, Hexagonal, Event-Driven)
+7. Governance and Processes (ex: “Adopt ADRs,” team conventions)
+8. APIs and Contracts (REST, gRPC, versioning)
+9. Observability (Logging, Monitoring, Tracing)
+10. Testing Strategy
+11. Performance and Scalability
+12. Others
+Agora vou pedir para a LLM analisar as mesmas 300 ADRs. (editado) 
+10h05
+O que acha do prompt abaixo?
+10h05
+You are an experienced software architect analyzing Architecture Decision Records (ADRs). Each ADR should document a single architectural decision made in a software project.
+
+Below is the content of an ADR:
+
+-> {content}
+
+I defined the following architectural topics based on manual analysis:
+
+1. Microservices Architecture
+2. Technology/Language Choice
+3. CI/CD Infrastructure and Deployment
+4. Security
+5. Data Persistence (Databases, ORMs, Cache)
+6. Architectural Patterns (e.g., MVC, Hexagonal, Event-Driven)
+7. Governance and Processes (e.g., "Adopt ADRs," team conventions)
+8. APIs and Contracts (REST, gRPC, versioning)
+9. Observability (Logging, Monitoring, Tracing)
+10. Testing Strategy
+11. Performance and Scalability
+12. Others (use only if none of the above apply)
+
+Your task:
+- Assign exactly one of the above topics that best describes the main subject of this ADR.
+
+- If the ADR clearly does not fit into any of these topics, propose a new topic name (short, clear, and architectural in nature).
+
+- Tag ADR files that do not correspond to the characteristics of an ADR and have therefore been used inappropriately. 
+
+Respond only with a topic name (either from the list or your new name).
+Samuel Cabral de Luna
+  10h24
+https://calendar.app.google/SRu4AWsGKiPzSkBC8
+calendar.google.com
+tcc - samuel — Invitation via Google Calendar
+https://calendar.app.google/SRu4AWsGKiPzSkBC8
+
+Samuel Cabral de Luna
+  10h41
+fsharp
+ racket
+ ocaml
+ elm
+ elixir
+ clojure
+ scala
+ haskell
+ erlang\
+joao.​arthur
+  10h56
+faltou lisp e ml, @Samuel Cabral de Luna
+Samuel Cabral de Luna
+  11h25
+vou adicionar
+Matheus Victor
+  11h56
+Posso seguir com esse prompt
+@joao.​arthur? (editado) 
+joao.​arthur
+  14h07
+acho que pode ser mais de uma tag por conteúdo. entao mudaria isso aqui abaixo para deixar ele livre para colocar mais de uma
+- Assign exactly one of the above topics that best describes the main subject of this ADR.
+14h07
+de resto, manda ver
+Matheus Victor
+  14h10
+beleza
+Matheus Victor
+  17h57
+Professor, eu fiz a análise das adrs classificando-as com apenas uma categoria cada adr. Pedir para  a llm classificar em mais de uma, num vai ficar complicado para calcular a concordância não? Além do mais, vi que Kappa não serve bem para rótulos multlabel. (editado) 
+joao.​arthur
+  8h37
+Então deveríamos ver uma outra métrica que não fosse kappa.
+8h37
+Uma simples é a interseção dos conjuntos dividida pela união deles.
+8h38
+Você classificou manualmente com apenas uma tag?
+Matheus Victor
+  8h38
+Isso
+Matheus Victor
+  8h49
+Mas se for preciso eu refaço a classificação
+joao.​arthur
+  9h21
+é que eu realmente acho que pode haver muitos casos multilabel
+Matheus Victor
+  9h24
+Irei refazer
