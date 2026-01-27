@@ -40,7 +40,7 @@ def main():
     # cria CSV para anotação manual
     with open(OUTPUT_CSV, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["id", "repositoryUrl", "path", "title", "content_snippet", "topic_human", "notes"])
+        writer.writerow(["id", "repositoryUrl", "path", "title", "content_snippet", "my_topic", "notes"])
         for i, adr in enumerate(sample):
             # gera ID único (índice ou hash)
             adr_id = f"ADR_{i+1:03d}"
@@ -49,7 +49,7 @@ def main():
             path = adr.get("path", "").lstrip("/")
             title = adr.get("title", "")
             content = adr.get("content", "")
-            snippet = content[:500].replace("\n", " ").replace("\r", " ")
+            snippet = content.replace("\n", " ").replace("\r", " ")
             writer.writerow([adr_id, repo, path, title, snippet, "", ""])
     
     print(f"Planilha para anotação manual criada: {OUTPUT_CSV}")
