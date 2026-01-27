@@ -1,0 +1,33 @@
+BASE_PROMPT = """You are an experienced software architect analyzing Architecture Decision Records (ADRs). Each ADR documents one or more architectural decisions.
+
+Below is the content of an ADR:
+
+---
+{content}
+---
+
+I have defined the following architectural topics:
+
+1. data_persistence
+2. technology_choice
+3. microservices_and_modularity
+4. api_and_contracts
+5. infrastructure_and_deployment
+6. observability
+7. security
+8. testing_strategy
+9. architecture_patterns
+10. performance_and_scalability
+11. governance_and_process
+12. others
+
+Your task:
+- Assign **all topics** from the list above that apply to this ADR.
+- You may select **one or more** topics.
+- If the ADR clearly fits none of these, propose **one new topic** in snake_case (short and architectural).
+- Do **not** include explanations, numbers, or extra text.
+
+Respond **only** with a comma-separated list of topic names in snake_case.
+
+Example response:  
+data_persistence, performance_and_scalability"""
