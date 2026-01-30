@@ -1,0 +1,51 @@
+id,content,my_topic,llm_topic
+ADR_001,# 7. Use Unity for dependency injection  Date: 2018-09-17  ## Status  Accepted  Extends [6. use depe,technology_choice,"technology_choice, architecture_patterns"
+ADR_002,# Notifications  ## Context  superwerker creates an OpsItem in Systems Manager OpsCenter for each em,technology_choice,"technology_choice, infrastructure_and_deployment, observability"
+ADR_003,# 3. Install citerus as a git submodule  Date: 03/06/2018  ## Status  Accepted  ## Context  I can't ,governance_and_process,"microservices_and_modularity, governance_and_process"
+ADR_004,# Public API Generation  ## Status  accepted  ## Context  For a typescript library it is common to u,governance_and_process,"api_and_contracts, governance_and_process"
+ADR_005,# 30. 容量评估 - 存储  Date: 2017-05-25  ## Status  Accepted  ## Context  1. 一些需要高 IOPS 的服务，磁盘使用的是普通云盘，如，数,data_persistence,"data_persistence, technology_choice, performance_and_scalability, infrastructure_and_deployment"
+ADR_006,# 1. Record architecture decisions  Date: 2019-09-25  ## Status  Accepted  ## Context  We need to re,governance_and_process,governance_and_process
+ADR_007,# ADR-23 Tasks as classifier plugins  ## Context We'd like the new classifier to be easily extensibl,"architectural_patterns, governance_and_process","microservices_and_modularity, architecture_patterns"
+ADR_008,# 13. Precompute JMAP Email preview  Date: 2019-10-09  ## Status  Accepted  ## Context  JMAP message,performance_and_scalability,"data_persistence, performance_and_scalability, governance_and_process"
+ADR_009,--- title: ADR039 - Aiven metrics for users ---  # ADR039: Aiven metrics for users  ## Context  We o,"technology_choice, observability","technology_choice, infrastructure_and_deployment, observability, architecture_patterns, performance_and_scalability"
+ADR_010,# 3. Coding Style and Enforcement  Date: 21/10/2019  ## Status  Proposed  ## Context  This codebase ,"governance_and_process, technology_choice",governance_and_process
+ADR_011,# 2. Implement as Unix shell scripts  Date: 2018-09-13  ## Status  Superceded by [3. Remove Unix Scr,others,"technology_choice, infrastructure_and_deployment"
+ADR_012,# 4. Using React Context  Date: 2019-07-01  ## Status  Accepted  ## Context  There was a lot of prop,technology_choice,"technology_choice, architecture_patterns"
+ADR_013,# 12. Deploying alertmanager to the new platform  Date: 2018-11-06  ## Status  Accepted  ## Context ,"infrastructure_and_deployment, observability","technology_choice,infrastructure_and_deployment,observability,governance_and_process"
+ADR_014,"# ADR 046: Module Params  ## Changelog  * Sep 22, 2021: Initial Draft  ## Status  Proposed  ## Abstr",governance_and_process,"data_persistence, api_and_contracts, performance_and_scalability, governance_and_process, microservices_and_modularity"
+ADR_015,# ADR 000000: Entusiasme Application Development  ### **Prologue/Summary**  In the context of softwa,technology_choice,technology_choice
+ADR_016,# 3. Integrate with google drive  Date: 2018-02-26  ## Status  Accepted  ## Context  - We're using [,technology_choice,"data_persistence, technology_choice, infrastructure_and_deployment, security, governance_and_process"
+ADR_017,# 8. Config and environment variables  Date: 2021-03-15  ## Status  Accepted  ## Context  We feel th,governance_and_process,"infrastructure_and_deployment, governance_and_process"
+ADR_018,# ADR 2: Robot Pattern in UI Tests ## Context UI tests are notoriously difficult to maintain. A few ,"testing_strategy, architectural_patterns","testing_strategy, architecture_patterns, technology_choice, governance_and_process"
+ADR_019,# Decision Record: Resolve consistency and uniqueness in content  ## Context  Publishing API has ado,data_persistence,"data_persistence, architecture_patterns, performance_and_scalability"
+ADR_020,# ADR 008: Decentralized Computer Emergency Response Team (dCERT) Group  ## Changelog  * 2019 Jul 31,others,"security, governance_and_process, architecture_patterns"
+ADR_021,# 10. Use travis ci for continuous integration  Date: 2019-10-20  ## Status  Accepted  ## Context  W,"infrastructure_and_deployment, technology_choice","technology_choice, infrastructure_and_deployment, governance_and_process"
+ADR_022,# 9. Utilize browser caching  Date: 2017-05-24  ## Status  Accepted  ## Context  We needed to make s,data_persistence,"technology_choice, api_and_contracts, performance_and_scalability, infrastructure_and_deployment"
+ADR_023,## ADR 003: Browser-based submission of survey form responses  ## Context  In certain cases organisa,api_and_contracts,"data_persistence, microservices_and_modularity, api_and_contracts, infrastructure_and_deployment, architecture_patterns"
+ADR_024,--- title: ADR006 - RDS broker ---  # ADR006: RDS broker  ## Context  We need to provide tenants wit,"technology_choice, data_persistence","data_persistence, technology_choice, governance_and_process, infrastructure_and_deployment"
+ADR_025,# 7. payment_for_3Bot_deployer  Date: 2020-09-15  ## Status  Accepted  ## Context  The deployment of,technology_choice,"infrastructure_and_deployment, governance_and_process"
+ADR_026,### Context This is the beginning on the project and for the moment all the commit are done on the m,"governance_and_process, technology_choice",governance_and_process
+ADR_027,# 1. about-cursors  Date: 2019-07-08  ## Status  2019-07-08 proposed  ## Context  In the grid in cel,others,"architecture_patterns, performance_and_scalability"
+ADR_028,# 1. Record architecture decisions  Date: 2019-11-04  ## Status  Accepted  ## Context  We need to re,governance_and_process,governance_and_process
+ADR_029,# ADR 007: ETL to populate Content Items' dimension.  26-01-2018  ## Context  As [per this Trello ca,governance_and_process,"data_persistence, api_and_contracts, architecture_patterns, performance_and_scalability"
+ADR_030,# 3. Use Spring framework  Date: 20-July-2017  ## Status  Accepted  ## Context  We need to build the,technology_choice,technology_choice
+ADR_031,# Broadcast Messages  ## Context and Problem Statement  Heroes can kill nearby enemies on a certain ,others,"technology_choice, architecture_patterns, performance_and_scalability"
+ADR_032,# Use NX  - Status: accepted - Deciders: devs - Date: 03.05.2020  ## Context and Problem Statement  ,technology_choice,"technology_choice, microservices_and_modularity, infrastructure_and_deployment, governance_and_process, performance_and_scalability"
+ADR_033,# 3. Spring Framework  Date: 2018-08-02  ## Status  Accepted  ## Context  Programming frameworks can,technology_choice,"technology_choice, api_and_contracts"
+ADR_034,# ADR 008: Focus on english content in the first iterations.  28-01-2018  ## Context  Some Content I,others,"api_and_contracts, architecture_patterns"
+ADR_035,# 5. Record architecture decisions  Date: 2020-10-21  ## Context  While we have already recorded arc,governance_and_process,governance_and_process
+ADR_036,# 1. Documenting architecture decisions  Date: 2018-02-11  ## Status  Accepted  ## Context  Record c,governance_and_process,governance_and_process
+ADR_037,# 12. Use feature flags for in-progress features  Date: 2021-09-13  ## Status  Accepted  ## Context ,governance_and_process,"api_and_contracts, infrastructure_and_deployment, testing_strategy, governance_and_process"
+ADR_038,# 2. Make TaskManager Distributed  Date: 2019-10-02  ## Status  Accepted (lazy consensus)  ## Contex,"technology_choice, microservices_and_modularity","infrastructure_and_deployment, architecture_patterns, performance_and_scalability"
+ADR_039,# 5. Publish the library on npm  Date: 2018-12-21  ## Status  Accepted  ## Context  Need to find a w,technology_choice,"technology_choice,infrastructure_and_deployment"
+ADR_040,# Provide all packages  ## Context and Problem Statement  Should the Docker image include all packag,others,"infrastructure_and_deployment, performance_and_scalability"
+ADR_041,# 12. Create a generic relationship framework to link between mother and child  Date: 2018-05-28  ##,others,"data_persistence, architecture_patterns, microservices_and_modularity"
+ADR_042,# Link System - Start Date: 2021/10/21 - RFC PR: https://github.com/openmrs/openmrs-rfc-frontend/pul,others,"microservices_and_modularity, api_and_contracts, architecture_patterns, governance_and_process"
+ADR_043,# ADR 1: Multitenancy  We propose to add features OK Log to make it suitable for multi-tenant env,microservices_and_modularity,"data_persistence, microservices_and_modularity, performance_and_scalability"
+ADR_044,# Emotion  ## Context  Using a CSS-in-JS library will allow us to scope styles to a component. Popul,technology_choice,technology_choice
+ADR_045,# 10. feat-ci-cd-with-circleci  # 8. feat-about-cicd  Date: 2020-02-20  ## Status  Draft  ## Context,"infrastructure_and_deployment, technology_choice","technology_choice, microservices_and_modularity, infrastructure_and_deployment, testing_strategy, governance_and_process"
+ADR_046,"# Fonts  ## Decision  Prefer system fonts, otherwise use variable fonts.  ```css @font-face {   font",others,performance_and_scalability
+ADR_047,# Determine How to Display All Facilities on the Map  ## Context  The Open Apparel Registry currentl,api_and_contracts,"technology_choice, microservices_and_modularity, api_and_contracts, infrastructure_and_deployment, security, performance_and_scalability"
+ADR_048,# Testing library  ## Context  * We want to write programmer tests to support a TDD workflow. * We w,"testing_strategy, technology_choice","testing_strategy, technology_choice"
+ADR_049,# 2. Use Amazon Aurora Serverless for ephemeral environments  Date: 2020-02-14  ## Status  Accepted ,"data_persistence, technology_choice","data_persistence, technology_choice, infrastructure_and_deployment, testing_strategy, performance_and_scalability"
+ADR_050,--- sidebar_position: 5 --- # Workflowitem-ordering  Date: 04/05/2018  ## Status  Draft  ## Context ,others,"data_persistence, architecture_patterns, api_and_contracts"

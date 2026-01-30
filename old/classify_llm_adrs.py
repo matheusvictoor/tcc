@@ -14,7 +14,7 @@ API_KEY = os.getenv("API_KEY")
 URL_WATSONX = os.getenv("URL_WATSONX")
 PROJECT_ID  = os.getenv("PROJECT_ID")
 
-TEST_MODE = True # alterar para False para rodar nas 300
+TEST_MODE = False # alterar para False para rodar nas 300
 N_TEST = 5 # numero de adrs no modo de teste
 MAX_RETRIES = 3 # tentativas em caso de falha
 
@@ -89,6 +89,9 @@ for i, adr in enumerate(adrs):
         try:
             raw_resp = model.generate_text(prompt=prompt).strip()
             response = raw_resp.split("\n")[0].strip()
+            response = response.lstrip(", \t").rstrip(", \t")
+            # if not response:
+            #     response = "others"
             break
         except Exception as e:
             print(f"[{adr_id}] Tentativa {attempt+1} falhou: {str(e)[:80]}")
