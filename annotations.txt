@@ -3,3 +3,4 @@ modelos ja utilziado:
 openai/gpt-4.1-mini
 google/gemini-3-flash-preview
 anthropic/claude-sonnet-4.5
+anthropic/claude-opus-4.5
