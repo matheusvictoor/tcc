@@ -1,0 +1,14 @@
+Topic,Count,Percentage
+technology_choice,1715,31.347102906232866
+governance_and_process,1551,28.349479071467737
+infrastructure_and_deployment,1262,23.06708097239993
+api_and_contracts,866,15.828916103089014
+architecture_patterns,853,15.591299579601536
+data_persistence,845,15.445074026686164
+security,637,11.643209650886492
+microservices_and_modularity,608,11.113142021568269
+performance_and_scalability,434,7.932736245658929
+testing_strategy,384,7.018826539937854
+observability,185,3.3814659111679766
+others,60,1.0966916468652899
+accessibility,2,0.03655638822884299
