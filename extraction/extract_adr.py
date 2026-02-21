@@ -5,7 +5,7 @@ import time
 from pathlib import Path
 import base64
 from tqdm import tqdm
-from context_word_count import word_count
+from extraction.context_word_count import word_count
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
