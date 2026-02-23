@@ -1,0 +1,605 @@
+Status únicos encontrados:
+
+- ![Accepted](https://img.shields.io/badge/adr-accepted-green)
+- ![Accepted](https://img.shields.io/badge/adr-accepted-green) Supercedes [3. Use Standard for Ruby linting](0003-use-standard-rb.md)
+- (EMPTY)
+- * ACCEPTED (2018-10-04)
+- * ACCEPTED (2018-10-24) * PROPOSED (2018-10-04)
+- * APPROVED (2018-10-24) * PROPOSED (2018-10-05)
+- * Accepted (2018-09-19)
+- * Accepted (2018-10-09)
+- * Accepted (2021-09-01)
+- * Accepted (2021-09-06)
+- * PENDING (2019-01-23)
+- * PROPOSED (2018-11-07)
+- * Proposed (2021-06-16) Note: this decision was recorded retrospectively after we added ADRs. The original process was recorded in a private wiki, but the gist of those discussions is collected here for reference.
+- * Proposed (2021-09-02)
+- * Proposed (2021-09-03)
+- * Proposed (2021-10-11)
+- * Proposed and Accepted (2018-11-28)
+- * User subscribes to **Product A**. * **RP-A** will see `goldBadge` but not `unlimitedStorage` in User's `subscriptions` claim in profile. * **RP-B** will see both `goldBadge` and `unlimitedStorage` * **RP-C** sees no capabilities listed
+- ** Accepted
+- ** Approved **
+- ** Approved ** via TSC vote on 2021-12-14
+- **Accepted**
+- **Approved**
+- **DEPRECATED** _check [update 1](#update-1)_
+- **DEPRECATED** _check [update 2](#update-2)_
+- **Discussing**
+- **Discussing** Sumarises to output and decisions taken as a result of spikes: - [TEVA-615](https://docs.google.com/document/d/14hf17sSuQu7N0cBa6tvdC_WwiHHBVJ5aA7xDPQghTT0/edit?usp=sharing) - [TEVA-616](https://docs.google.com/document/d/1Z23ethqb3cICGvx61Nbr0yEbsTAoULiKSXSmGpW1unA/edit?usp=sharing)
+- **REJECTED** _check [update 1](#update-1)_
+- **accepted** <!-- optional -->
+- **approved** - TSC vote on 3/25/20 for Geneva release > NOTE: this ADR does not address high availability considerations and concerns. EdgeX, in general, has a number of unanswered questions with regard to HA architecture and this design adds to those considerations.
+- **proposal** | ~~accepted~~ | ~~depreciated~~ | ~~superceded~~
+- **rejected**
+- *A decision may be "proposed" if the project stakeholders haven't agreed with it yet, or "accepted" once it is agreed. If a later ADR changes or reverses a decision, it may be marked as "deprecated" or "superseded" with a reference to its replacement.*
+- *A decision may be "proposed" if the project stakeholders haven't agreed with it yet, or "accepted" once it is agreed. If a later ADR changes or reverses a decision, it may be marked as "deprecated" or "superseded" with a reference to its replacement.* - Proposed - 11/2016 - Accepted - 12/2016
+- *Accepted*
+- *Adopted*
+- *Draft*
+- *Proposed*
+- *deprecated*
+- - This ADR has been approved. - This has been implemented for a practitioner, but not for any other resource - the implementation for the Patient resource has been identified as an [issue](https://github.com/Open-GP/opengp-architecture/issues/21).
+- //github.com/adr/madr/blob/main/docs/decisions/0001-use-CC0-as-license.md)
+- 2018-10-16 proposed
+- 2019-05-10 proposed 2019-05-10 accepted
+- 2019-07-08 proposed
+- 2019-07-11 proposed
+- 2019-07-30 proposed
+- 2019-08-01 proposed
+- 2019-08-23 done
+- 2019-08-23 proposed
+- 2019-08-24 accepted
+- 2019-08-26 proposed 2019-08-27 rejected
+- 2019-08-27 proposed 2019-08-27 rejected
+- 2019-08-27 proposed 2019-09-02 accepted
+- 2019-08-29 proposed
+- 2019-09-02 proposed
+- 2019-09-07 proposed
+- 2019-09-08 accepted
+- 2019-09-09 proposed
+- 2019-09-13 proposed
+- 2019-09-15 accepted
+- 2019-09-21 accepted
+- 2019-11-26 proposed
+- 2019-12-14 proposed
+- 2020-02-18 Accepted
+- 2020-09-05 accepted
+- 2020-09-16 Proposed 2020-09-22 Accepted
+- 2020-09-26 proposed
+- 2020-10-16 Proposed 2020-10-19 Accepted
+- 2021-01-14 Proposed
+- 2021-10-19 Accepted
+- :bulb: Proposed on 2018-01-24 :white_check_mark: Accepted on 2017-06-23
+- :white_check_mark: Accepted
+- <!--- What is the status, such as proposed, accepted, rejected, deprecated, superseded, etc.? --> proposed
+- ====== Accepted
+- ====== Proposed
+- > A decision may be "proposed" if it hasn't been agreed upon yet, or "accepted" once it is agreed upon. If a later ADR changes or reverses a decision, it may be marked as "deprecated" or "superseded" with a reference to its replacement. {Deprecated|Proposed|Accepted}
+- > Proposed
+- ACCEPTED
+- ACCEPTED (17/06/2020) Proposed by: Alex (11/06/2020) Discussed with:
+- ACCEPTED (18/06/2020) Proposed by: Alex Black (17/06/2020) Discussed with: Shams, Paul
+- ACCEPTED - 09/06/2020 Proposed by: Alex Black (08/06/2020) Discussed with: Shams
+- ACCEPTED - 22/05/2020 Proposed by: Alex Black (14/05/2020) Discussed with: (no feedback received)
+- ACCEPTED Discussed by Alex Black and Paul Dubs on 05. March 2020.
+- ACCEPTED Discussed by Alex Black and Paul Dubs on 29. November 2019 and 2. December 2019.
+- ACCEPTED Discussed by Alex Black, raver119 and Paul Dubs on 27. November 2019.
+- ACCEPTED Discussed by: Alex Black, Robert Altena and Paul Dubs on 26. November 2019
+- ACCEPTED Discussed by: Alex Black, raver 119 and Paul Dubs on 25. November 2019
+- ACCEPTED Discussed by: Paul Dubs & Alex Black on 07. November 2019
+- ACCEPTED Discussed by: Paul Dubs, Alex Black, raver119 on 19. October 2019
+- ACCEPTED Discussed by: Paul Dubs, Alex Black, raver119 on 22. November 2019
+- ACCEPTED Proposed by: Alex Black (12/06/2020) Discussed with: Paul
+- ACCEPTED Proposed by: Paul Dubs (05/06/2020) Discussed with: Alex Black
+- ACCEPTED Proposed by: Shams Ul Azeem (18-03-2020) Discussed with: Paul Dubs, Alex Black
+- Accepted
+- Accepted & implemented
+- Accepted (June 15, 2018)
+- Accepted (March 11, 2019) Superseded by [Version 2](2019-09-05_autoupdate_v2.md)
+- Accepted (Superseded by [ADR-0005](../0005-use-gcs-as-storage-backend/0005-use-gcs-as-storage-backend.md))
+- Accepted (Supersedes [001](./001-screen-controllers.md), [007](./007-screen-architecture-v2.md)) on 2019-10-01
+- Accepted (Supersedes [ADR-0003](../0003-use-cassandra-as-storage-backend/0003-use-cassandra-as-storage-backend.md))
+- Accepted (by technical team).
+- Accepted (lazy consensus)
+- Accepted (lazy consensus) & implemented
+- Accepted (lazy consensus) & implemented Additional performance testing is required for adoption.
+- Accepted (lazy consensus) & implemented Adoption had been backed by some performance tests.
+- Accepted (lazy consensus) & implemented Scope: Distributed James
+- Accepted (lazy consensus) & implemented Superceded by [16. Distributed WorkQueue](0016-distributed-workqueue.md)
+- Accepted (lazy consensus) & implemented Supercedes [14. Add storage policies for BlobStore](0014-blobstore-storage-policies.md)
+- Accepted (lazy consensus) & implemented Supercedes [3. Distributed WorkQueue](0003-distributed-workqueue.md)
+- Accepted (lazy consensus) & partially implemented
+- Accepted (lazy consensus) & removed
+- Accepted (lazy consensus) Additional performance testing is required for adoption.
+- Accepted (lazy consensus) Superceded by [16. Distributed WorkQueue](0016-distributed-workqueue.md)
+- Accepted (lazy consensus) Supercedes [3. Distributed WorkQueue](0003-distributed-workqueue.md)
+- Accepted (lazy consensus) and implemented
+- Accepted (lazy consensus).
+- Accepted (lazy consensus). Implemented.
+- Accepted (lazy consensus). Implemented. Proposes a simple way to implement an alternative to [39. Distributed blob garbage collector](0039-distributed-blob-garbage-collector.md)
+- Accepted (lazy consensus). Implemented. Provides an alternative to [ADR-31 Distributed MailQueue (RabbitMQ + Cassandra)](0031-distributed-mail-queue.md).
+- Accepted (lazy consensus). Implemented. Relates to [45. Support JMAP Push with Mailbox/changes implementation](0045-support-jmap-push-with-mailbox-changes-implementation.md) Requires [46. Generalize EventBus](0046-generalize-event-bus.md)
+- Accepted (lazy consensus). Partially implemented.
+- Accepted (lazy consensus). Scope: Distributed James
+- Accepted (lazy consensus). Scope: Distributed James Implemented.
+- Accepted (related to [ADR #0008](0008-use-circleci-as-analysis-sandbox.md))
+- Accepted (supersedes [ADR #0014](0014-add-support-for-examples.md))
+- Accepted - Amends [3. Aggregate Lifetime Control](0003-aggregate-lifetime-control.md)
+- Accepted ---
+- Accepted 2018-03-28.
+- Accepted <!-- optional -->
+- Accepted Adoption had been backed by some performance tests, as well as data repartition between Cassandra and object storage shifts.
+- Accepted Also see [8. Use AxonFramework in backend](0008-use-axonframework-in-backend.md)
+- Accepted Amended by [10. Allocation API has less responsibility](0010-allocation-api-has-less-responsibility.md) Amended by [18. Unify API and Presentation layer](0018-unify-api-and-presentation-layer.md)
+- Accepted Amended by [11. We chose a different CosmosDB API](0011-we-chose-a-different-cosmosdb-api.md)
+- Accepted Amended by [16. Use the Elite2 API to access NOMIS data](0016-use-elite2-api.md)
+- Accepted Amended by [17. Terraform Data Structure](0017-terraform-data-structure.md)
+- Accepted Amended by [19. Allow direct input of project.json without a .sb3 file](0019-allow-direct-input-of-project-json-without-a-sb3-file.md)
+- Accepted Amended by [19. Directory Layout Revisions](0019-directory-layout-revisions.md)
+- Accepted Amended by [28. Use Only FileSet Digest for Preservation Object Name](0028-use-only-fileset-digest-for-preservation-object-name.md)
+- Accepted Amended by [3. Use AWS CodePipeline and CodeBuild instead of Travis](0003-use-aws-codepipeline-and-codebuild-instead-of-travis.md)
+- Accepted Amended by [5. Replace redirects with HTML pages](0005-replace-redirects-with-html-pages.md)
+- Accepted Amended by [5. Sherd files have unique IDs to make merging histories easy](0005-sherd-files-have-unique-ids-to-make-merging-histories-easy.md)
+- Accepted Amended by [5. Use PlantUML for diagramming with use of stdlib](0005-use-plantuml-for-diagramming-with-use-of-stdlib.md)
+- Accepted Amended by [5. Use id_token from Microsoft as Bearer token](0005-use-id-token-from-microsoft-as-bearer-token.md) Amended by [6. Use Okta as Identity provider](0006-use-okta-as-identity-provider.md)
+- Accepted Amended by [6. AWS VPC Public and Private subnets](0006-aws-vpc-public-and-private-subnets.md)
+- Accepted Amended by [9. Help scripts](0009-help-scripts.md)
+- Accepted Amended by [9. Use JPA](0009-use-jpa.md) - originally used JDBC Amended by [10. JPA manages schema](0010-jpa-manages-schema.md) - originally managed via schema.sql & data.sql and reset each deploy
+- Accepted Amends [10. Terraform directory structure](0010-terraform-directory-structure.md)
+- Accepted Amends [15. Phoenix Context Organization](0015-phoenix-context-organization.md)
+- Accepted Amends [18. Preservation Storage Object Naming Scheme](0018-preservation-storage-object-naming-scheme.md)
+- Accepted Amends [2. Require PHP 7.2 (64-bit)](0002-require-php-7-2-64-bit.md)
+- Accepted Amends [2. Use AWS Bare Metal Rig approach](0002-use-aws-bare-metal-rig-approach.md)
+- Accepted Amends [3. Use PlantUML for diagramming](0003-use-plantuml-for-diagramming.md)
+- Accepted Amends [4. Client-side routing using history API and redirects](0004-client-side-routing-using-history-api-and-redirects.md)
+- Accepted Amends [4. Distinguish superseded records with colour](0004-distinguish-superseded-records-with-colour.md)
+- Accepted Amends [4. Security](0004-security.md) Alternative considered [6. Use Okta as Identity provider](0006-use-okta-as-identity-provider.md) Alternative considered [7. Use Pac4J to validate tokens](0007-use-pac4j-to-validate-tokens.md)
+- Accepted Amends [4. Separate API and user-facing applications](0004-separate-api-and-user-facing-applications.md) Amended by [18. Unify API and Presentation layer](0018-unify-api-and-presentation-layer.md)
+- Accepted Amends [4. Store shards in time-stamped directories and files](0004-store-shards-in-time-stamped-directories-and-files.md)
+- Accepted Amends [5. Help comments](0005-help-comments.md)
+- Accepted Amends [5. VPC and Network Design](0005-vpc-and-network-design.md)
+- Accepted Amends [8. Database](0008-database.md)
+- Accepted Amends [8. Use scratch saves as input for conversion to C](0008-use-scratch-saves-as-input-for-conversion-to-c.md)
+- Accepted Amends [9. We choose a CosmosDB API](0009-we-choose-a-cosmosdb-api.md)
+- Accepted Amends [Separate API and user facing applications](https://github.com/ministryofjustice/offender-management-architecture-decisions/blob/master/decisions/0004-separate-api-and-user-facing-applications) Amends [Allocation API has less responsibility](https://github.com/ministryofjustice/offender-management-architecture-decisions/blob/master/decisions/0010-allocation-api-has-less-responsibility)
+- Accepted Amplified by [2. Use akka](0002-use-akka.md)
+- Accepted Amplifies [3. Use Scala as programming language](0003-use-scala-as-programming-language.md)
+- Accepted Caused [19. Virtual Platform Takes in THWPlatform Type](0019-virtual-platform-takes-in-thwplatform-type.md) Caused [20. Hardware Platform Options File](0020-hardware-platform-options-file.md)
+- Accepted Caused by [18. Driver Registration in HW Platform](0018-driver-registration-in-hw-platform.md)
+- Accepted Context [2. Overall context and Container Platform](0002-overall-context-and-container-platform.md) Related [3. Gitops Approach](0003-gitops-approach.md) Related [4. ArgoCD as deployment agent](0004-argocd-as-deployment-agent.md)
+- Accepted Context [2. Overall context and Container Platform](0002-overall-context-and-container-platform.md) Related [3. Gitops Approach](0003-gitops-approach.md) Related [5. Kustomize as templating tool](0005-kustomize-as-templating-tool.md)
+- Accepted Enables [9. Examples](0009-examples.md) Amended by [10. Terraform Backend in Module](0010-terraform-backend-in-module.md)
+- Accepted Expands on [8. Use TypeScript](0008-use-typescript.md)
+- Accepted Explains [3. Test Distributed Files Only](0003-test-distributed-files-only.md)
+- Accepted Extended By [6. Let the build step generate config for the client code](0006-let-the-build-step-generate-config-for-the-client-code.md)
+- Accepted Extended By [8. use pug to render the final html](0008-use-pug-to-render-the-final-html.md)
+- Accepted Extended by [13. Show no kickers for ties](0013-show-no-kickers-for-ties.md)
+- Accepted Extended by [6. Systemd units for dApps](0006-systemd-units-for-dapps.md)
+- Accepted Extended by [6. Systemd units for dApps](0006-systemd-units-for-dapps.md) Extended by [9. Docker state directory on Data Volume](0009-docker-state-directory-on-data-volume.md) Extended by [11. Preinstallable images on data volume](0011-preinstallable-images-on-data-volume.md)
+- Accepted Extended by [7. Layers as Git Submodules](0007-layers-as-git-submodules.md)
+- Accepted Extended by [9. Docker state directory on Data Volume](0009-docker-state-directory-on-data-volume.md) Extended by [11. Preinstallable images on data volume](0011-preinstallable-images-on-data-volume.md)
+- Accepted Extends [12. Treat this as a programming puzzle not a client deliverable](0012-treat-this-as-a-programming-puzzle-not-a-client-deliverable.md)
+- Accepted Extends [2. Docker for dApps](0002-docker-for-dapps.md) Extends [4. Systemd as an init system](0004-systemd-as-an-init-system.md)
+- Accepted Extends [2. Docker for dApps](0002-docker-for-dapps.md) Extends [8. Dual Root with Data Volume](0008-dual-root-with-data-volume.md) Extended by [11. Preinstallable images on data volume](0011-preinstallable-images-on-data-volume.md)
+- Accepted Extends [2. Docker for dApps](0002-docker-for-dapps.md) Extends [8. Dual Root with Data Volume](0008-dual-root-with-data-volume.md) Extends [9. Docker state directory on Data Volume](0009-docker-state-directory-on-data-volume.md)
+- Accepted Extends [3. Yocto as a distro base](0003-yocto-as-a-distro-base.md)
+- Accepted Extends [3. output a single html file](0003-output-a-single-html-file.md)
+- Accepted Extends [5. Minimize the amount of code that must be tested in the browser](0005-minimize-the-amount-of-code-that-must-be-tested-in-the-browser.md)
+- Accepted Extends [6. use dependency injection](0006-use-dependency-injection.md) Amended By [8. Use Autofac for dependency injection](0008-use-autofac-for-dependency-injection.md)
+- Accepted Followup [6. Kafkarator API is focused around dedicated CRDs](0006-kafkarator-api-is-focused-around-dedicated-crds.md)
+- Accepted Functionally, this decision remains accepted. The implementation has been superseded; we now use Disruptor Autobatchers.
+- Accepted Guided by [3. Use familiar tools](0003-use-familiar-tools.md) Detailed in [9. Use TypeScript 3.4.5](0009-use-typescript-3-4-5.md)
+- Accepted Implemented by [24. Refer to BLOB at the source project](0024-refer-to-blob-at-the-source-project.md) Implemented by [25. Domains correspond to business departments](0025-domains-correspond-to-business-departments.md) Implemented by [26. Solution facilitates a coherent set of business functions](0026-solution-facilitates-a-coherent-set-of-business-functions.md) Implemented by [27. A GCP project belongs to a single domain](0027-a-gcp-project-belongs-to-a-single-domain.md) Implemented by [28. A solution is implemented by one or more GCP projects](0028-a-solution-is-implemented-by-one-or-more-gcp-projects.md) Implemented by [29. Components are named according to naming conventions](0029-components-are-named-according-to-naming-conventions.md)
+- Accepted Implemented by [30. life cycle management](0030-life-cycle-management.md) Implemented by [31. Uniform bucket-level access for storage](0031-uniform-bucket-level-access-for-storage.md) Implemented by [32. Oauth2 for authentication](0032-oauth2-for-authentication.md) Implemented by [33. Two identity providers: development / run](0033-two-identity-providers-development-run.md) Implemented by [34. 2FA on all user identities](0034-2fa-on-all-user-identities.md) Implemented by [35. All communication uses SSL](0035-all-communication-uses-ssl.md) Implemented by [36. SSL certificates are always verified](0036-ssl-certificates-are-always-verified.md) Implemented by [37. Secrets are stored in GCP Secret Manager](0037-secrets-are-stored-in-gcp-secret-manager.md) Implemented by [38. SAST and DAST are in the CI/CD pipeline](0038-sast-and-dast-are-in-the-ci-cd-pipeline.md) Implemented by [39. Least privilege access](0039-least-privilege-access.md) Implemented by [40. HPA](0040-hpa.md) Implemented by [41. Deployment through Pull Request](0041-deployment-through-pull-request.md) Implemented by [58. API is trust boundary ODH](0058-api-is-trust-boundary-odh.md) Implements [59. Runtime dependency only on GCP](0059-runtime-dependency-only-on-gcp.md)
+- Accepted Implemented by [42. Python version 3](0042-python-version-3.md) Implemented by [43. API First](0043-api-first.md) Implemented by [44. OpenAPI3](0044-openapi3.md) Implemented by [45. Code / config separation](0045-code-config-separation.md) Implemented by [46. Javascript framework](0046-javascript-framework.md) Implemented by [47. Shell scripting](0047-shell-scripting.md) Implemented by [48. Testing framework](0048-testing-framework.md) Implemented by [49. gitops Deployment](0049-gitops-deployment.md) Implemented by [50. Expand pip requirements](0050-expand-pip-requirements.md) Implemented by [51. Declarative preferred over actions](0051-declarative-preferred-over-actions.md) Implemented by [52. ODRL policy](0052-odrl-policy.md) Implemented by [53. Project company data](0053-project-company-data.md) Implemented by [54. Coding guidelines](0054-coding-guidelines.md) Implemented by [55. Feature toggles over feature branching](0055-feature-toggles-over-feature-branching.md) Implemented by [12. Data catalog specifies all data components](0012-data-catalog-specifies-all-data-components.md) Implemented by [13. Data retention defined on each data component](0013-data-retention-defined-on-each-data-component.md) Implemented by [41. Deployment through Pull Request](0041-deployment-through-pull-request.md)
+- Accepted Implemented by [45. Code / config separation](0045-code-config-separation.md)
+- Accepted Implemented by [56. Deploy on Google Cloud Platform](0056-deploy-on-google-cloud-platform.md)
+- Accepted Implemented by [57. Naming convention defines URI tags](0057-naming-convention-defines-uri-tags.md) Related to [11. CQRS separates read and write responsibility](0011-cqrs-separates-read-and-write-responsibility.md)
+- Accepted Implemented by [6. Implement Security by Design](0006-implement-security-by-design.md)
+- Accepted Implemented in [5. Forever alpha version](0005-forever-alpha-version.md)
+- Accepted Implements [10. Event sourcing captures every change to business state](0010-event-sourcing-captures-every-change-to-business-state.md) Implements [11. CQRS separates read and write responsibility](0011-cqrs-separates-read-and-write-responsibility.md) Implemented by [18. Single writer for a topic](0018-single-writer-for-a-topic.md) Implemented by [19. Single schema per topic](0019-single-schema-per-topic.md) Implemented by [20. Topic messages have gobits](0020-topic-messages-have-gobits.md) Implemented by [21. Messages are in JSON format](0021-messages-are-in-json-format.md) Implemented by [22. Locations are specified in GeoJSON](0022-locations-are-specified-in-geojson.md) Implemented by [23. ISO-8601 to specify date and time with timezone](0023-iso-8601-to-specify-date-and-time-with-timezone.md)
+- Accepted Implements [16. Pub/Sub implements Event sourcing](0016-pub-sub-implements-event-sourcing.md)
+- Accepted Implements [16. Pub/Sub implements Event sourcing](0016-pub-sub-implements-event-sourcing.md) Implemented by [19. Single schema per topic](0019-single-schema-per-topic.md)
+- Accepted Implements [16. Pub/Sub implements Event sourcing](0016-pub-sub-implements-event-sourcing.md) Implements [21. Messages are in JSON format](0021-messages-are-in-json-format.md)
+- Accepted Implements [17. DDD defines ubiquitous language](0017-ddd-defines-ubiquitous-language.md)
+- Accepted Implements [17. DDD defines ubiquitous language](0017-ddd-defines-ubiquitous-language.md) Implemented by [28. A solution is implemented by one or more GCP projects](0028-a-solution-is-implemented-by-one-or-more-gcp-projects.md)
+- Accepted Implements [17. DDD defines ubiquitous language](0017-ddd-defines-ubiquitous-language.md) Implemented by [57. Naming convention defines URI tags](0057-naming-convention-defines-uri-tags.md)
+- Accepted Implements [17. DDD defines ubiquitous language](0017-ddd-defines-ubiquitous-language.md) Implements [26. Solution facilitates a coherent set of business functions](0026-solution-facilitates-a-coherent-set-of-business-functions.md) Related to [27. A GCP project belongs to a single domain](0027-a-gcp-project-belongs-to-a-single-domain.md)
+- Accepted Implements [17. DDD defines ubiquitous language](0017-ddd-defines-ubiquitous-language.md) Related to [25. Domains correspond to business departments](0025-domains-correspond-to-business-departments.md) Related to [28. A solution is implemented by one or more GCP projects](0028-a-solution-is-implemented-by-one-or-more-gcp-projects.md)
+- Accepted Implements [17. DDD defines ubiquitous language](0017-ddd-defines-ubiquitous-language.md) Related to [27. A GCP project belongs to a single domain](0027-a-gcp-project-belongs-to-a-single-domain.md)
+- Accepted Implements [3. Create cloud native solutions](0003-create-cloud-native-solutions.md)
+- Accepted Implements [4. Create software defined everything](0004-create-software-defined-everything.md)
+- Accepted Implements [4. Create software defined everything](0004-create-software-defined-everything.md) Implemented by [53. Project company data](0053-project-company-data.md)
+- Accepted Implements [4. Create software defined everything](0004-create-software-defined-everything.md) Implemented by [53. Project company data](0053-project-company-data.md) Related to [15. Automatic backup of each data component](0015-automatic-backup-of-each-data-component.md) Implemented by [52. ODRL policy](0052-odrl-policy.md)
+- Accepted Implements [4. Create software defined everything](0004-create-software-defined-everything.md) Implements [12. Data catalog specifies all data components](0012-data-catalog-specifies-all-data-components.md) Implemented by [53. Project company data](0053-project-company-data.md)
+- Accepted Implements [4. Create software defined everything](0004-create-software-defined-everything.md) Implements [12. Data catalog specifies all data components](0012-data-catalog-specifies-all-data-components.md) Implements [13. Data retention defined on each data component](0013-data-retention-defined-on-each-data-component.md) Implements [52. ODRL policy](0052-odrl-policy.md)
+- Accepted Implements [4. Create software defined everything](0004-create-software-defined-everything.md) Implements [5. Build Open Source solutions](0005-build-open-source-solutions.md)
+- Accepted Implements [4. Create software defined everything](0004-create-software-defined-everything.md) Related to [41. Deployment through Pull Request](0041-deployment-through-pull-request.md)
+- Accepted Implements [4. Create software defined everything](0004-create-software-defined-everything.md) Related to [58. API is trust boundary ODH](0058-api-is-trust-boundary-odh.md)
+- Accepted Implements [4. Document old decisions](0004-document-old-decisions.md)
+- Accepted Implements [6. Implement Security by Design](0006-implement-security-by-design.md)
+- Accepted Implements [6. Implement Security by Design](0006-implement-security-by-design.md) Implemented by [40. HPA](0040-hpa.md) Implemented by [58. API is trust boundary ODH](0058-api-is-trust-boundary-odh.md)
+- Accepted Implements [6. Implement Security by Design](0006-implement-security-by-design.md) Implements [39. Least privilege access](0039-least-privilege-access.md)
+- Accepted Implements [6. Implement Security by Design](0006-implement-security-by-design.md) Implements [39. Least privilege access](0039-least-privilege-access.md) Related to [43. API First](0043-api-first.md)
+- Accepted Implements [6. Implement Security by Design](0006-implement-security-by-design.md) Implements [4. Create software defined everything](0004-create-software-defined-everything.md) Related to [49. gitops Deployment](0049-gitops-deployment.md)
+- Accepted Implements [6. Implement Security by Design](0006-implement-security-by-design.md) Related to [14. Single confidentiality level per data component](0014-single-confidentiality-level-per-data-component.md)
+- Accepted Implements [9. URI identifies data](0009-uri-identifies-data.md) Implements [29. Components are named according to naming conventions](0029-components-are-named-according-to-naming-conventions.md)
+- Accepted Is related to [2. Apply clean code guidelines](0002-apply-clean-code-guidelines.md)
+- Accepted Is related to [7. Use static code analysis](0007-use-static-code-analysis.md)
+- Accepted June 2020
+- Accepted Leads to [6. Use ESLint for linting](0006-use-eslint-for-linting.md)
+- Accepted Note that this decision applies only to locks that were taken out via the legacy (V1) lock service. We have since implemented an asynchronous lock service which is used for all transactional locks; blocking timeouts are not relevant there.
+- Accepted Partial supersede of [6. Use Auth0 for authentication](0006-use-auth0-for-authentication.md)
+- Accepted Partially supersedes [ADR 18](adr-18.md)
+- Accepted Proposed by: Adam Gibson (11-19-2021) Discussed with: Paul Dubs
+- Accepted Proposed by: Adam Gibson (5-5-2021) Discussed with: saudet (Samuel Audet)
+- Accepted Related [4. ArgoCD as deployment agent](0004-argocd-as-deployment-agent.md)
+- Accepted Related to [10. Event sourcing captures every change to business state](0010-event-sourcing-captures-every-change-to-business-state.md) Related to [9. URI identifies data](0009-uri-identifies-data.md) Implemented by [16. Pub/Sub implements Event sourcing](0016-pub-sub-implements-event-sourcing.md)
+- Accepted Related to [11. CQRS separates read and write responsibility](0011-cqrs-separates-read-and-write-responsibility.md) Implemented by [16. Pub/Sub implements Event sourcing](0016-pub-sub-implements-event-sourcing.md)
+- Accepted Related to [12. Data catalog specifies all data components](0012-data-catalog-specifies-all-data-components.md)
+- Accepted Related to [31. Uniform bucket-level access for storage](0031-uniform-bucket-level-access-for-storage.md)
+- Accepted Relates To [10. use a different html parser for testing](0010-use-a-different-html-parser-for-testing.md)
+- Accepted Relates To [9. use xml for bookmarks format](0009-use-xml-for-bookmarks-format.md)
+- Accepted Relates [2. Use Google Closure Compiler](0002-use-google-closure-compiler.md)
+- Accepted Relates to [2. Use Node.js](0002-use-node-js.md) Leads to [4. Use Jasmine for unit testing](0004-use-jasmine-for-unit-testing.md) Leads to [6. Use ESLint for linting](0006-use-eslint-for-linting.md) Guides [8. Use TypeScript](0008-use-typescript.md)
+- Accepted Relates to [3. Use familiar tools](0003-use-familiar-tools.md)
+- Accepted Relies On [3. No Terraform Backend in Module](0003-no-terraform-backend-in-module.md)
+- Accepted See also [2. Combine topic creation and credentials management in same app](0002-combine-topic-creation-and-credentials-management-in-same-app.md)
+- Accepted See also [4. Combine topic creation and credentials management in same app](0004-combine-topic-creation-and-credentials-management-in-same-app.md) Updated by [8. User experience](0008-user-experience.md)
+- Accepted Supercedes [1. Record architecture decisions](0001-record-architecture-decisions.md)
+- Accepted Supercedes [1. SYS Record architecture decisions](0001-SYS-record-architecture-decisions.md)
+- Accepted Supercedes [11. Add Google Sitelinks Searchbox metadata](0011-add-google-sitelinks-searchbox-metadata.md)
+- Accepted Supercedes [11. Indexing Commands and Flows](0011-indexing-commands-and-flows.md)
+- Accepted Supercedes [12. Use Lambda and Fargate for Task Execution](0012-use-lambda-and-fargate-for-task-execution.md)
+- Accepted Supercedes [15. Use Kong for Reverse Proxy](0015-use-kong-for-reverse-proxy.md)
+- Accepted Supercedes [2. Don't build on top of Codox](0002-don-t-build-on-top-of-codox.md)
+- Accepted Supercedes [2. Implement as Unix shell scripts](0002-implement-as-unix-shell-scripts.md)
+- Accepted Supercedes [2. Manage client-side dependencies using Bower](0002-manage-client-side-dependencies-using-bower.md)
+- Accepted Supercedes [2. No integration test](0002-no-integration-test.md)
+- Accepted Supercedes [2. Require PHP 7.2 (64-bit)](0002-require-php-7-2-64-bit.md)
+- Accepted Supercedes [2. Use libpcap and libnet](0002-use-libpcap-and-libnet.md)
+- Accepted Supercedes [2. Use sphinx as our knowledge base system](0002-use-sphinx-as-our-knowledge-base-system.md)
+- Accepted Supercedes [2. Using react-testing-library](0002-react-testing-library.md)
+- Accepted Supercedes [2. ulids](0002-ulids.md)
+- Accepted Supercedes [22. IIIF Manifests](0022-iiif-manifests.md)
+- Accepted Supercedes [28. Spark for Distributed Compute](0028-spark-for-distributed-compute.md) Supercedes [29. Dask for Python Distributed Compute](0029-dask-for-python-distributed-compute.md)
+- Accepted Supercedes [3. For config, prefer prefix over nesting and don't hide defaults in code](0003-for-config-prefer-prefix-over-nesting-and-don-t-hide-defaults-in-code.md)
+- Accepted Supercedes [3. Session storage using JWT](0003-session-storage-using-jwt.md)
+- Accepted Supercedes [3. Use Angular as the main frontend JS framework](0003-use-ember-as-the-main-frontend-js-framework.md)
+- Accepted Supercedes [3. Use AngularJS 1.x](0003-use-angularjs-1-x.md)
+- Accepted Supercedes [3. Use same colour for all headers](0003-use-same-colour-for-all-headers.md) Amended by [5. Distinguish amendments to records with colour](0005-distinguish-amendments-to-records-with-colour.md)
+- Accepted Supercedes [3. cloudfront distribution means there is long lived infrastruture](0003-cloudfront-distribution-means-there-is-long-lived-infrastruture.md)
+- Accepted Supercedes [3. write help file](0003-write-help-file.md)
+- Accepted Supercedes [4. Use Gulp to build source code](0004-use-gulp-to-build-source-code.md)
+- Accepted Supercedes [4. Use Micrometer Prometheus](0004-use-micrometer-prometheus.md)
+- Accepted Supercedes [4. api](0004-api.md)
+- Accepted Supercedes [4. config only in config file](0004-config-only-in-config-file.md)
+- Accepted Supercedes [5. Hardcode dependencies](0005-hardcode-dependencies.md) Amends [7. Use Unity for dependency injection](0007-use-unity-for-dependency-injection.md)
+- Accepted Supercedes [5. Hardcode dependencies](0005-hardcode-dependencies.md) Extended By [7. Use Unity for dependency injection](0007-use-unity-for-dependency-injection.md)
+- Accepted Supercedes [6. Provide simplified e2e testing options](0006-provide-simplified-e2e-testing-options.md)
+- Accepted Supercedes [6. Use Flask](0006-use-flask.md)
+- Accepted Supercedes [6. Use custom JSON serialization](0007-use-custom-json-serialization.md)
+- Accepted Supercedes [8. Key Pair Utility](0008-key-pair-utility.md)
+- Accepted Supercedes [8. Use One S3 Bucket Per Source](0008-use-one-s3-bucket-per-source.md)
+- Accepted Supercedes [8. use-heroku-for-hosting](0008-use-heroku-for-hosting.md)
+- Accepted Superseded by [26. Development mode for the Verify Service Provider](0026-development-mode-for-the-verify-service-provider.md)
+- Accepted Superseded by [6. Create schema lock table using configuration](0006-create-schema-lock-table-using-configuration.md)
+- Accepted Superseded by [PR #3620: Use CQL to create tables](https://github.com/palantir/atlasdb/pull/3620).
+- Accepted Supersedes [4. Create schema lock table via a one off CLI command](0004-create-schema-lock-table-via-a-one-off-cli-command.md) Superseded by [PR #3620: Use CQL to create tables](https://github.com/palantir/atlasdb/pull/3620).
+- Accepted Supersedes [8. Provide an End To End Stub](0008-provide-an-end-to-end-stub.md)
+- Accepted Testing [2. language](0002-language.md)
+- Accepted Testing [3. testing](0003-testing.md)
+- Accepted The approach taken so far is primarily driven by the needs of developers, rather than the needs of the other roles in the team. We should avoid committing to this approach until other people in the team have made more use of it. For example, it may be easier to have fewer files (perhaps per collection of views, to keep things algorithmic), with more content in each file.
+- Accepted The third decision point has been superseded. The ability to disable request batching has been removed, as we have not seen cases in practice where enabling it has caused issues (even in spite of the latency cost there).
+- Accepted Updates [3. No Terraform Backend in Module](0003-no-terraform-backend-in-module.md)
+- Accepted by EdgeX Foundry working groups as of Core Working Group meeting 16-Jan-2020 !!! Note This ADR was written pre-Geneva with an assumption that the V2 APIs would be available in Geneva. In actuality, the full V2 APIs will be delivered in the Ireland release (Spring 2020)
+- Accepted decisions [1. Record architecture decisions](0001-record-architecture-decisions.md)
+- Accepted diagrams [1. Record architecture decisions](0001-record-architecture-decisions.md)
+- Accepted diagrams [2. AWS Infrastructure](0002-aws-infrastructure.md)
+- Accepted on 2017-11-20.
+- Accepted on 2017-11-23.
+- Accepted on 2017-11-28.
+- Accepted on 2017-12-11.
+- Accepted on 2017-12-20.
+- Accepted on 2018-03-07.
+- Accepted on 2018-03-09.
+- Accepted on 2018-03-15.
+- Accepted on 2018-06-19.
+- Accepted on 2018-08-17. Revisited on 2019-01-03.
+- Accepted on 2018-09-26.
+- Accepted on 2020-04-16
+- Accepted on 2020-04-20 Proposed on 2020-04-12
+- Accepted on 2020-08-05
+- Accepted | Pending | Superseded by [ADR000](000-template.md)
+- Accepted, 2016-02-03.
+- Accepted, 2019-07-01
+- Accepted, 2019-08-09
+- Accepted, 2019-10-15
+- Accepted, 2019/05/31
+- Accepted, Supplemented by [ADR034](ADR034-one-service-operator-different-resource-kinds.md)
+- Accepted, amended by [ADR039](ADR039-cloudhsm-namespace-network-policy.md)
+- Accepted, implementation complete.
+- Accepted, implementation in progress.
+- Accepted, implemented and in place as of March 2021. The backfill has completed and the ongoing sync is in place. We have not yet deprecated the legacy zone/state fields or the FacilityGroup model.
+- Accepted, installation of Ariadne and Apollo complete. Creation of GraphQL schema in progress.
+- Accepted.
+- Accepted. **Suggestion:** Since we accepted this ADR, we suggest all our applications add a hook and prevent committing without passing the linter.
+- Accepted. This ADR was accepted implicitly by the (current) primary maintainer of this repository, Sam Smith. The date of this ADR was changed to reflect this.
+- Accepted. This feature was released to all users by Feb 2020.
+- Accepted. [1]: https://content-performance-api.publishing.service.gov.uk/[2]: https://github.com/alphagov/content-performance-manager/pull/798#discussion_r203503129
+- Accepted: October, 2019 Supersedes: [Launcher Auto Update Process](2019-03-11_autoupdate.md)
+- Adopted (lazy consensus) & implemented Completes [20. Cassandra Mailbox object consistency](0020-cassandra-mailbox-object-consistency.md), [23. Cassandra Mailbox Counters inconsistencies](0023-cassandra-mailbox-counters-inconsistencies.md)
+- Adopted (lazy consensus) Completes [20. Cassandra Mailbox object consistency](0020-cassandra-mailbox-object-consistency.md), [23. Cassandra Mailbox Counters inconsistencies](0023-cassandra-mailbox-counters-inconsistencies.md)
+- Adopted. However, the Prettier hooks could be removed with minimal effort.
+- Adopted. This project currently uses rollup.js but could switch to Webpack with minimal effort. The bundle size savings (~4K) may not make a significant difference to end users.
+- Adopted. TypeScript is in use but could be removed with moderate effort (it may or may not be possible to programmatically remove the type annotations).
+- Agreed
+- Agreed but will be superseeded
+- Alpha
+- Always changing.
+- Approved
+- Approved - Amended by [16. Automatic Aggregate Creation](0016-automatic-aggregate-creation.md) - Amended by [17. Recreation of Aggregate Instances After Destruction](0017-recreate-aggregate-after-destruction.md)
+- Approved 2021-01-15
+- Approved Approved TDDA 2018-12-18 Review by March 2019
+- Approved This was discussed with @trouille and @chrislintott prior to approval.
+- Approved by @rogerhutchings, @shaun.a.noordin, and @srallen.
+- Approved on 17/02/2017
+- Approved on 29/10/2017
+- Approved.
+- Approved. Implemented.
+- April 3, 2018: Accepted.
+- Beta
+- Currently to facilitate extensibility, two locations are searched for: 1. `~/dev.yaml` 2. `./dev.yaml` Additionally, there exists an `includes` property which allows for each file to include other files.
+- DEPRECATED Implements [4. Create software defined everything](0004-create-software-defined-everything.md) Deprecated by [60. lock-pip-requirements](0060-lock-pip-requirements.md)
+- DRAFT
+- DRAFT Not Implemented
+- Decided
+- Decided.
+- Decline Alternative to [5. Use id_token from Microsoft as Bearer token](0005-use-id-token-from-microsoft-as-bearer-token.md)
+- Declined
+- Deferred
+- Deprecated
+- Deprecated (Replaced by ADR #0012)
+- Discsusion Proposed by: Adam Gibson (11-25-2021) Discussed with: Paul Dubs
+- Discussed by @shaun.a.noordin and @srallen.
+- Done
+- Draft
+- Drafting
+- Established. (The practices were in place by the time we started adding ADRs.)
+- Followup [3. Kafkarator API is focused around dedicated CRDs](0003-kafkarator-api-is-focused-around-dedicated-crds.md) Superceded by [5. Kafkarator credentials rotation and flow](0005-kafkarator-credentials-rotation-and-flow.md)
+- For Review
+- Implementation Complete.
+- Implemented
+- Implemented (see [spells.R](src/spells.R)).
+- Implemented Proposed by: Adam Gibson (28-09-2020) Discussed with: N/A
+- Implemented, and previous code for date conversion has been rolled back.
+- Implemented, used for JMAP notifications, however not yet used on top of the user entity as described in this document.
+- Implemented, with potential further future optimisation.
+- Implemented.
+- Implemented: * [Verification Predicates](https://github.com/informalsystems/tendermint-rs/blob/e2335c4/light-client/src/predicates.rs) * [Verifier Component](https://github.com/informalsystems/tendermint-rs/blob/e2335c4/light-client/src/components/verifier.rs) * [IO Component](https://github.com/informalsystems/tendermint-rs/blob/e2335c4/light-client/src/components/io.rs) * [Scheduler Component](https://github.com/informalsystems/tendermint-rs/blob/e2335c4/light-client/src/components/scheduler.rs) * [Supervisor](https://github.com/informalsystems/tendermint-rs/blob/e2335c40b1c5e1f7d47ee28ae5f9cc679730b7a2/light-client/src/supervisor.rs) * [Example](https://github.com/informalsystems/tendermint-rs/blob/e2335c40b1c5e1f7d47ee28ae5f9cc679730b7a2/light-client/examples/light_client.rs)
+- Implementing
+- In Progress
+- In Progress Supercedes [1. Record architecture decisions](0001-record-architecture-decisions.md) Superceded by [3. vrs-integration](0003-vrs-integration.md)
+- In Review
+- In discussion
+- In progress
+- In progress <!-- optional -->
+- In progress Supercedes [](0002-vrs-type.md)
+- In progress.
+- In review.
+- Invalidated on 2021-08-04.
+- Investigation Complete
+- Made
+- No longer relevant. This decision related to the alpha code (in alphagov/prometheus-aws-configuration), which is no longer being actively developed.
+- Open
+- Open - we PoCd that single node servers could be managed via GitOps, are waiting for the RH product develop to address the single node use case: https://github.com/stefan-bergstein/edge-lab/tree/master/podman-gitops Context [2. Overall context and Container Platform](0002-overall-context-and-container-platform.md)
+- PROPOSED
+- Partially superseded by [ADR 17](./0017-moving-istio-configuration-out-of-this-repo.md). To look at the files at the moment this ADR was written you can browse files at [3f55af5 commit](https://github.com/cloudfoundry/cf-k8s-networking/tree/3f55af54912a527de16a8f70645018e4f13f9dba).
+- Partly superseded
+- Pending
+- Pending (may want to change if the added complexity is high)
+- Pending.
+- Preliminary decision by head of software development after discussion with lead operations engineer and platform architect. Alos Needs review before final decision.
+- Proposal
+- Proposal Supercedes [4. Cookie Encryption](0004-cookies-encryption.md)
+- Proposed
+- Proposed - partially implemented and used for region reports
+- Proposed - the team working on this piece of work was paused in December 2020, it is unclear whether a future team will be formed to complete this work.
+- Proposed / Prototyped
+- Proposed 2017-07-01 Accepted 2017-07-11
+- Proposed 2017-07-08 Accepted 2017-07-12
+- Proposed 2017-07-26 Accepted 2017-07-26 generalized_by [7](7-Defining_Customizations.md)
+- Proposed 2017-08-08 Accepted 2017-08-08 mentions 1
+- Proposed 2017-12-07 Accepted 2017-12-07 mentions [1](1-ADR_directory_identified_by_marker_file.md)
+- Proposed 2017-12-26 Accepted 2017-12-26
+- Proposed 2017-12-28 Accepted 2017-12-30 extends [3](3-Allow_More_Permissive_File_Names.md)
+- Proposed 2018-12-09 Accepted 2018-12-10 supersedes [5](5-Utility_Context_Lazily_Initialized.md) mentions [6](6-Centralize_Definition_of_Filename.md)
+- Proposed Adoption needs to be backed by some performance tests, as well as data repartition between Cassandra and object storage shifts.
+- Proposed Adoption needs to be backed by some performance tests.
+- Proposed Amended by [17. Use string (uuid) for all model id fields](0017-use-strings-for-all-model-id-fields.md)
+- Proposed Amends [9. Use OpenReferal API](0009-use-openreferal-api.md)
+- Proposed Not implemented yet.
+- Proposed Proposed by: Adam Gibson (21-03-2021) Discussed with: N/A
+- Proposed Superceded by [6. collapse to one cloudformation template](0006-collapse-to-one-cloudformation-template.md)
+- Proposed Supercedes [14. Add storage policies for BlobStore](0014-blobstore-storage-policies.md)
+- Proposed Supercedes [26. Removing a configured additional MailboxListener](0026-removing-configured-additional-mailboxListeners.md)
+- Proposed Supercedes [26. Removing a configured additional MailboxListener](0026-removing-configured-additional-mailboxListeners.md) Not implemented yet.
+- Proposed on 2018-06-07.
+- Proposed on 2018-06-27.
+- Proposed on 2018-08-10.
+- Proposed, not implemented yet. Work had been started on this topic. An alternative is proposed in [Deduplicated blobs GC with bloom filters](0049-deduplicated-blobs-gs-with-bloom-filters.md) and implemented.
+- Proposed, should be reviewed
+- Proposed.
+- Proposing
+- REJECTED Discussed by: Paul Dubs, Alex Black, raver119 on 25. November 2019
+- RFC
+- Recommended
+- Rejected
+- Rejected (leads to concurrency issues) Adoption needs to be backed by some performance tests.
+- Rejected Proposed by: Adam Gibson (28-09-2020) Discussed with: N/A
+- Rejected The benefits do not outweigh the costs.
+- Rejected.
+- Replaced by ADR 0007.
+- STATUS：accepted 2018-02-14 accepted
+- STATUS：accepted 2018-02-23 proposed 2018-03-01 accepted
+- SUPERSEDED by ADR-045
+- Spiked - Delay for now Amends [4. Security](0004-security.md) Alternative to [5. Use id_token from Microsoft as Bearer token](0005-use-id-token-from-microsoft-as-bearer-token.md)
+- Status quo.
+- Status: Accepted on 2020-04-05
+- Status: Accepted on 2020-04-09
+- Status: Accepted on 2020-06-04
+- Status: Accepted on 2020-06-25
+- Status: Accepted on 2020-08-07
+- Status: Accepted on 2020-08-17
+- Status: PROPOSED / ACCEPTED.
+- Submitted
+- Superceded by [008](./008-screen-architecture-v3.md) on 2019-10-01
+- Superceded by [011](./011-screen-navigation-v2.md) on 2020-01-12.
+- Superceded by [10. Integration tests](0010-integration-tests.md)
+- Superceded by [10. Replace Flask with Django](0010-replace-flask-with-django.md)
+- Superceded by [10. Use Session Manager for shell access to instances](0010-use-session-manager-for-shell-access-to-instances.md)
+- Superceded by [12. Use Lambda and Fargate for Task Execution](0012-use-lambda-and-fargate-for-task-execution.md)
+- Superceded by [12. remove custom json serialization](0012-remove-custom-json-serialization.md)
+- Superceded by [13. Remove Google Sitelinks Searchbox Metadata](0013-remove-google-sitelinks-searchbox-metadata.md)
+- Superceded by [13. Use GraphQL for api](0013-use-graphql-for-api.md)
+- Superceded by [14. Structure of CLI](0014-structure-of-cli.md)
+- Superceded by [14. Use Traefik for Reverse Proxy](0014-use-traefik-for-reverse-proxy.md)
+- Superceded by [15. Use a Single Bucket](0015-use-a-single-bucket.md)
+- Superceded by [16. Disable Auth0's requirement for Javascript during the authentication journey](0016-disable-auth0-s-requirement-for-javascript-during-the-authentication-journey.md)
+- Superceded by [16. Use rubocop-govuk for code linting](0016-use-rubocop-govuk-for-code-linting.md)
+- Superceded by [2. vrs-type](0002-vrs-type.md)
+- Superceded by [22. use-govuk-paas-for-hosting](0022-use-govuk-paas-for-hosting.md)
+- Superceded by [23. uuids](0023-uuids.md)
+- Superceded by [24. IIIF Manifests](0024-iiif-manifests.md)
+- Superceded by [3. Remove Unix Scripts](0003-remove-unix-scripts.md)
+- Superceded by [3. SYS Use another theme for adrs](0003-sys-use-other-theme-for-adrs.md)
+- Superceded by [3. Stop recording architecture decisions](0003-stop-recording-architecture-decisions.md)
+- Superceded by [3. Switch to Spring Boot](0003-switch-to-spring-boot.md)
+- Superceded by [3. testing-model-in-DOM-integration-tests](0003-testing-model-in-dom-integration-tests.md)
+- Superceded by [32. remove skylight](0032-remove-unused-skylight-performance-monitoring-app.md)
+- Superceded by [4. Generate Help file](0004-generate-help-file.md)
+- Superceded by [4. Use Azure Search](0004-use-azure-search.md)
+- Superceded by [4. Use Rig.Config for global configuration](0004-use-rig-config-for-global-configuration.md)
+- Superceded by [4. Use mkdocs as a knowledge base system](0004-use-mkdocs-as-a-knowledge-base-system.md)
+- Superceded by [4. Use sockets](0004-use-sockets.md)
+- Superceded by [4. Utilize codox to read Clojure/Script sources](0004-utilize-codox-to-read-clojure-script-sources.md)
+- Superceded by [5. Add Synthetic max-age to Session Cookie](0005-add-synthetic-max-age-to-session-cookie.md)
+- Superceded by [5. Manage dependencies using Yarn](0005-manage-dependencies-using-yarn.md)
+- Superceded by [5. Use Dropwizard Metrics](0005-use-dropwizard-metrics.md)
+- Superceded by [5. Use React as the main frontend JS framework](0005-use-react-as-the-main-frontend-js-framework.md)
+- Superceded by [6. Future ADRs in PIG repository](0006-future-adrs-in-pig-repository.md)
+- Superceded by [6. Use Webpack to build source code](0006-use-webpack-to-build-source-code.md)
+- Superceded by [6. environment variables overrides config file](0006-environment-variables-overrides-config-file.md)
+- Superceded by [6. use dependency injection](0006-use-dependency-injection.md) Superceded by [8. Use Autofac for dependency injection](0008-use-autofac-for-dependency-injection.md)
+- Superceded by [7. Require latest stable PHP version](0007-require-latest-stable-php-version.md)
+- Superceded by [7. Use React](0007-use-react.md)
+- Superceded by [8. Session storage using an encrypted cookie](0008-session-storage-using-an-encrypted-cookie.md)
+- Superceded by [ADR021](/architecture_decision_records/ADR021-cell-capacity-assignment-2/).
+- Superceded by [ADR024][].
+- Superceded by [multi node setup](./0010-multi-node-setup-and-user-management.md)
+- Supercedes [13. Custom Redbird Proxy](0013-custom-redbird-proxy.md) Superceded by [15. Use Kong for Reverse Proxy](0015-use-kong-for-reverse-proxy.md)
+- Supercedes [14. Use Traefik for Reverse Proxy](0014-use-traefik-for-reverse-proxy.md) Superceded by [36. Replace Kong with Nginx Ingress Controller](0036-replace-kong-with-nginx-ingress-controller.md)
+- Supercedes [20. use-skylight-application-performance-monitoring](0020-use-skylight-application-performance-monitoring.md)
+- Supercedes [5. Use AWS Lambda](0005-use-aws-lambda.md) Superceded by [13. Use SQS and Airflow for Task Execution](0013-use-sqs-and-airflow-for-task-execution.md)
+- Superceeded by [ADR033](../ADR033-redirect-http-for-applications)
+- Superseded
+- Superseded ([0004](https://github.com/nhsuk/gp-finder/blob/master/doc/adr/0004-use-elasticsearch-for-search.md))
+- Superseded ([0004](https://github.com/nhsuk/nearby-services-api/blob/master/doc/adr/0004-use-elastic-search.md))
+- Superseded ([0007](https://github.com/nhsuk/connecting-to-services/blob/master/doc/adr/0007-remove-cache-control-headers.md))
+- Superseded (by [012-simplified-user-permissions](012-simplified-user-permissions.md))
+- Superseded by [0009-supported-python-versions-containers](adr/0009-supported-python-versions-containers.md)
+- Superseded by [0010-aleph-circrequests-denied-entries-resubmission.md][2]
+- Superseded by [016 Reporting Schema](./016-reporting-schema.md)
+- Superseded by [2019011901](../2019011901-concrete-and-generic-domain-data-units.md)
+- Superseded by [4. Distinguish superseded records with colour](0004-distinguish-superseded-records-with-colour.md)
+- Superseded by [44. Use Helm as Kubernetes deployment tool](0044-use-helm-as-k8s-deployment-tool.md).
+- Superseded by [45. Kubernetes Secrets as Secret Store](0045-kubernetes-secrets-as-secret-store.md).
+- Superseded by [6. Avoid API Versioning](0006-avoid-api-versioning.md)
+- Superseded by [ADR #0015](0015-cancel-work-on-examples.md)
+- Superseded by [ADR 10](0010-route-crd-and-kubebuilder-instead-of-metacontroller.md)
+- Superseded by [ADR-22](adr-22.md).
+- Superseded by [ADR023](ADR023-cluster-authentication.md)
+- Superseded by [ADR024 - Soft Multitenancy](ADR024-soft-multitenancy.md)
+- Superseded by [ADR025](ADR025-ingress.md)
+- Superseded by [ADR028](ADR028-docker-tools.md)
+- Superseded by [ADR029](ADR029-continuous-delivery-tools.md)
+- Superseded by [ADR031](ADR031-postgres.md) and [ADR034](ADR034-one-service-operator-different-resource-kinds.md)
+- Superseded by [ADR043](ADR043-k8s-resource-access.md)
+- Superseded by [ADR046](ADR046-replace-harbor-ecr.md)
+- Superseded by [DNS Infrastructure](0015-dns-infrastructure.md)
+- Superseded by [adr-0012](/docs/architecture/adr-0012-use-concrete-state-monad.md)
+- Superseded by [adr-0013](/docs/architecture/decisions/adr-0013-use-ioref-for-state.md)
+- Superseded. See [ADR-004](ADR-004.md)
+- Superseded. We have now migrated prometheus off ECS and on to EC2. The rest is covered in ADR #12.
+- Supersedes [5. API Versioning](0005-api-versioning.md)
+- Superseeded by [ADR-0006](./0006-use-projen.md)
+- TBD
+- Technical decision has been accepted. This architectural decision record is still a work in progress.
+- These labels indicate a certain status in the workflow. This adds more fine-grained status information to the status which already is handled by the GitHub UI (open, closed, review status of pull requests).
+- Trial
+- Undecided
+- Under development
+- Under review
+- WIP
+- WIP Amended by [3. Component configuration via context](0003-component-configuration-via-context.md)
+- WIP Amends [ADR-0002](0002-component-configuration.md)
+- While this is marked `accepted`, we're still learning and exploring their usage so changes should be anticipated.
+- Work In Progress Todo: Use linting tool for checking code conventions.
+- [![adr: accepted][adr-accepted-badge]][adr-0001]
+- [![adr: accepted][adr-accepted-badge]][adr-0002]
+- [Accepted]
+- [Accepted](https://github.com/commercetools/commercetools-adyen-integration/pull/395)
+- [Accepted](https://github.com/commercetools/commercetools-adyen-integration/pull/541)
+- [Accepted](https://github.com/commercetools/commercetools-adyen-integration/pull/747)
+- [Accepted](https://github.com/department-of-veterans-affairs/va.gov-team/issues/20165)
+- [Proposed | Rejected | Accepted | Deprecated | … | superseded by [ADR-0005](0005-example.md)]
+- [accepted ] <!-- optional -->
+- [accepted]
+- [accepted] <!-- optional -->
+- [proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)] <!-- optional -->
+- [proposed]
+- [status]: #statusAccepted
+- [status]: #statusProposed
+- [status]: #statusProposed|Accepted|Archived|Deprecated|Superseded by 0000|
+- _Accepted_
+- _Pick one of:_ Proposed, Accepted, Rejected, Deprecated, Superseded Accepted
+- _Proposed_
+- __Accepted__
+- accepted
+- accepted - partially superseeds [ADR-0003]
+- approved
+- being evaluated
+- being evaluated <!-- optional -->
+- considered <!-- optional -->
+- decided
+- draft
+- drafted
+- extended by [ADR-0003](0003-patch-welsh-translation-for-skip-to-content-link.md)
+- implemented
+- in progress
+- in progress <!-- optional -->
+- in review
+- pending
+- proposed
+- rejected
+- rejected (implementation removed) in July 2019, in favor of moving towards the StatefulSet way of doing rolling restarts. The process-manager is also out of the picture. We don't reuse pods. Main benefits are code and architecture simplicity as well as respecting k8s standards.
+- rejected (implementation removed) in July 2019. The keystore updater is moved into an init container to adopt the same pattern used for Kibana and APM server. With the move towards the StatefulSet way of doing rolling restarts, we no longer need a process manager to perform Elasticsearch cluster restart. The zombie reaping problem only exists when another process is started in the container (e.g. kubectl exec) and should probably be handled in the official images. Main benefits are code and architecture simplicity as well as respecting k8s standards.
+- superseded
+- superseded by [20201016-use-the-adr-slug-as-its-unique-id](20201016-use-the-adr-slug-as-its-unique-id.md)
+- superseded by [ADR-0017](0017-switch-settings-auth-to-sessiontoken)
+- | ADR Status | Capability - Category | TechRadar: Ring | |:-------------:|:----------------------:|:----------------:| | ![ADR Status: Accepted][label-adr-accepted-img] | [Evolutionary Architecture ![External link][icon-octicon-link-external]][tw-tech-radar-evolutionary-architecture]<hr>[Architecture Decision Records ![External link][icon-octicon-link-external]][tw-tech-radar-adrs] | [![TechRadar: Techniques][label-techniques-img]][tw-tech-radar-techniques-url]<hr>![Adopt][label-tech-radar-techniques-adopt-img] |
+- | ADR Status | TechRadar: Ring | | :---------------------------------------------: | :------------------------------------------------------------------------------------------------------------: | | ![ADR Status: Proposed][label-adr-proposed-img] | [![TechRadar: Tools][label-tools-img]][tw-tech-radar-tools-url] <hr>![Adopt][label-tech-radar-tools-trial-img] |
+- ~~Approved~~ Postponed, see [version 2](0009-message-driven-content-tracker-next-gen.md)
+- ~~Proposed~~ | **Accepted** | ~~Depreciated~~ | ~~Superceded~~
+- ~~accepted~~ rejected
+- ~~accepted~~ rejected, superseded by https://github.com/elastic/cloud-on-k8s/issues/1173
+- ✅ Accepted
+- ✅ Accepted **June 2020 Update** The CP team is now in the habit of spinning up a [test cluster](https://github.com/ministryofjustice/cloud-platform-infrastructure/pull/742) to develop and test each change to the platform, before it is deployed to the main cluster (live-1). So although the main cluster still has dev/staging namespaces for service teams, this work is confined to their namespaces, and there's little concern that they would disrupt other namespaces. These user dev/staging namespaces could simply be seen as benefiting from the high service level offered for the cluster, due to it hosting the production namespaces. **May 2021 Update** We're looking to move on from this ADR decision, and have different clusters for non-prod namespaces - see [021-Multi-cluster](021-Multi-cluster.html)
+- ✔ accepted
+- ❌ Rejected
+- ❌ Rejected (see [019](019-Shared-Ingress-Controllers.md))
+- 🟢accepted
+- 🤔 Proposed
+
+Total de status distintos: 601
