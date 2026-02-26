@@ -17,16 +17,6 @@ sns.set_palette("Blues")
 
 fig, ax = plt.subplots(figsize=(6.5, 4.5))
 
-def get_color(row):
-    if row['Percentage'] >= 20:
-        return '#0c6da6'
-    elif row['Topic'] == 'accessibility':
-        return '#e74c3c'
-    else:
-        return '#5a9bd5'
-
-cores = [get_color(row) for _, row in df.iterrows()]
-
 bars = ax.barh(
     df["Topic"],
     df["Percentage"],
