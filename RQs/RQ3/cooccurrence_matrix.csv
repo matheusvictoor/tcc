@@ -1,0 +1,14 @@
+,accessibility,api_and_contracts,architecture_patterns,data_persistence,governance_and_process,infrastructure_and_deployment,microservices_and_modularity,observability,others,performance_and_scalability,security,technology_choice,testing_strategy
+accessibility,0,0,0,0,0,0,0,0,0,0,0,0,1
+api_and_contracts,0,0,181,151,91,40,109,16,0,57,132,139,24
+architecture_patterns,0,181,0,155,40,52,188,9,0,79,48,126,42
+data_persistence,0,151,155,0,52,139,78,14,0,161,67,205,13
+governance_and_process,0,91,40,52,0,222,98,13,0,8,83,104,53
+infrastructure_and_deployment,0,40,52,139,222,0,144,57,0,107,253,356,46
+microservices_and_modularity,0,109,188,78,98,144,0,4,0,32,62,80,16
+observability,0,16,9,14,13,57,4,0,0,9,20,41,4
+others,0,0,0,0,0,0,0,0,0,0,0,1,0
+performance_and_scalability,0,57,79,161,8,107,32,9,0,0,19,99,15
+security,0,132,48,67,83,253,62,20,0,19,0,119,16
+technology_choice,0,139,126,205,104,356,80,41,1,99,119,0,86
+testing_strategy,1,24,42,13,53,46,16,4,0,15,16,86,0
