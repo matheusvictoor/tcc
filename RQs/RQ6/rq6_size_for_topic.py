@@ -2,10 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Carregar dataset
 df = pd.read_csv("../../experiment/dataset_llm_classified.csv")
 
-# Extrair tags (multilabel)
+# extrai tags
 def extract_tags(tag_str):
     if pd.isna(tag_str) or tag_str.strip() == "":
         return []
@@ -13,11 +12,10 @@ def extract_tags(tag_str):
 
 df['tags'] = df['llm_topic'].apply(extract_tags)
 
-# Explodir para análise por tag (cada ADR pode aparecer múltiplas vezes)
+# cada ADR pode aparecer varias vezes
 df_exploded = df.explode('tags')
 df_exploded = df_exploded[df_exploded['tags'].notna() & (df_exploded['tags'] != '')]
 
-# Estatísticas por tópico
 stats_by_topic = df_exploded.groupby('tags')['wordCount'].agg([
     ('count', 'count'),
     ('mean', 'mean'),
@@ -30,12 +28,9 @@ stats_by_topic = df_exploded.groupby('tags')['wordCount'].agg([
 print("=== TAMANHO MÉDIO POR TÓPICO (ordenado por mediana) ===")
 print(stats_by_topic.to_string())
 
-# Filtrar tópicos com pelo menos 50 ocorrências para o gráfico
 min_count = 50
 topics_to_plot = stats_by_topic[stats_by_topic['count'] >= min_count].index.tolist()
 df_plot = df_exploded[df_exploded['tags'].isin(topics_to_plot)].copy()
-
-# ==================== GRÁFICO (PADRÃO RQ2–RQ5) ====================
 
 plt.rcParams.update({
     "font.family": "serif",
@@ -46,7 +41,7 @@ plt.rcParams.update({
 
 fig, ax = plt.subplots(figsize=(6.5, 4.5))
 
-# Ordenar por mediana (decrescente)
+# ordena por mediana - decrescente
 ordered_topics = sorted(
     topics_to_plot,
     key=lambda t: df_exploded[df_exploded['tags'] == t]['wordCount'].median(),
@@ -79,7 +74,6 @@ plt.tight_layout()
 plt.savefig('figura_rq6_size_for_topic.png', dpi=600, bbox_inches='tight')
 plt.close()
 
-# Teste simples: diferença entre maior e menor mediana
 if len(stats_by_topic) >= 2:
     max_median = stats_by_topic['median'].max()
     min_median = stats_by_topic['median'].min()
