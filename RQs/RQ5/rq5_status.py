@@ -1,18 +1,16 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Carregar dataset (use o normalizado se já tiver rodado o script de padronização)
 df = pd.read_csv("../../experiment/dataset_llm_classified_normalized.csv")
 status_col = "status_normalized"
 
-# Tratar valores vazios como 'unknown'
+# Trata valores vazios como 'unknown'
 df["status_normalized"] = df["status_normalized"].fillna("unknown")
 
-# Contar frequências
 status_counts = df["status_normalized"].value_counts()
 status_pct = (status_counts / len(df) * 100).round(2)
 
-print("=== DISTRIBUIÇÃO DE STATUS ===")
+print("DISTRIBUIÇÃO DE STATUS")
 for status, count, pct in zip(status_counts.index, status_counts.values, status_pct.values):
     print(f"{status:15s}: {count:4d} ADRs ({pct:5.2f}%)")
 
