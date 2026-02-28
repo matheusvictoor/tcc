@@ -2,11 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Carregar dataset
 df = pd.read_csv("../../experiment/dataset_llm_classified.csv")
 df['wordCount'] = pd.to_numeric(df['wordCount'], errors='coerce')
 
-# Estatísticas descritivas do wordCount
 print("=== ESTATÍSTICAS DE TAMANHO (wordCount) ===")
 print(f"Média: {df['wordCount'].mean():.2f} palavras")
 print(f"Mediana: {df['wordCount'].median():.2f} palavras")
@@ -16,7 +14,6 @@ print(f"Máximo: {df['wordCount'].max()} palavras")
 print(f"Q1 (25%): {df['wordCount'].quantile(0.25):.2f}")
 print(f"Q3 (75%): {df['wordCount'].quantile(0.75):.2f}")
 
-# Distribuição em faixas
 bins = [0, 100, 200, 300, 400, 500, 750, 1000, 1500, float('inf')]
 labels = ['0-100', '101-200', '201-300', '301-400', '401-500', 
           '501-750', '751-1000', '1001-1500', '> 1500']
@@ -47,7 +44,6 @@ bars = ax.bar(
 ax.set_xlabel('Intervalo de contagem de palavras')
 ax.set_ylabel('Frequência (%)')
 
-# Anotação igual à RQ2
 for bar, percentage, count in zip(
     bars,
     range_pct.values,
